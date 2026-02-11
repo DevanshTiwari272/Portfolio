@@ -1,0 +1,6 @@
+.headTitle{margin: 0px 20px; font-size: 60px;width: 220px;font-weight: 1000;}
+.headTitleDiv{display: flex;flex-direction: column;justify-content: start;margin-top: 50px;}
+.protfolioImg{border-radius: 50%;}
+.myNameDiv{display: flex;flex-direction: row;justify-content: center;align-items: center;gap: 5px;}
+.name{overflow: hidden;}
+.ani{height: 22px;font-size: 20px;border-left:solid ;margin: 0px;}
