@@ -1,6 +1,10 @@
-.headTitle{margin: 0px 20px; font-size: 60px;width: 220px;font-weight: 1000;}
-.headTitleDiv{display: flex;flex-direction: column;justify-content: start;margin-top: 50px;}
+h2,h1{margin: 0px;}
+.headTitle{margin: 0px 0px; font-size: 40px;font-weight: 1000;}
+.headTitleDiv{display: flex;flex-direction: row;justify-content: center;margin-top: 0px;align-items: center;}
 .protfolioImg{border-radius: 50%;}
 .myNameDiv{display: flex;flex-direction: row;justify-content: center;align-items: center;gap: 5px;}
-.name{overflow: hidden;}
+.name{overflow: hidden;color: rgb(205, 1, 1);}
 .ani{height: 22px;font-size: 20px;border-left:solid ;margin: 0px;}
+.discription{font-size: 24px;text-align: center;font-family: 'Inter',sans-serif;color: rgb(113, 113, 122);line-height: 36px;}
+.viewProjectButton{height: 46px;background-color: black;color:white;padding: 9px;border-radius:20px;width: 120px;}
+.viewProjectButtonDiv{display: flex;align-items: center;justify-content: center;}
