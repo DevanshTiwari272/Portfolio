@@ -18,7 +18,7 @@ function Skills() {
   <FaGithub style={{height:"100%",width:"100%"}} />
 ]
 const containerVar={hidden:{opacity:0,}, visible:{opacity:1,transition:{duration:1,staggerChildren:0.2}}}
-const childVar={hidden:{opacity:0,x:100,transition:{type:'spring' ,duration:1,stiffness:500}}, visible:{opacity:1,x:0,transition:{type:'spring' ,duration:1}}}
+const childVar={hidden:{opacity:0,x:100}, visible:{opacity:1,x:0,transition:{type:'spring' ,duration:1,stiffness:200,ease:"easeIn"}}}
     return( 
         <>
             <section className="skillsSection">
