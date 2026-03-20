@@ -4,7 +4,7 @@ import Skills from "./Skills"
 import "./About.css"
 function About(){
     return (
-    <motion.section className="aboutMeSection" style={{width:"100vw",height:"100vh"}}
+    <motion.section className="aboutMeSection" style={{width:"100%",height:"100%"}}
     >
     <motion.h1 initial={{y:20 ,opacity:0}} whileInView={{y:0,opacity:1}} transition={{duration:0.8 ,ease:"easeOut",delay:0.1}} className="aboutMeHeading" viewport={{once:true,amount:0.5}}>About Me</motion.h1>
     <motion.p initial={{y:20 ,opacity:0}} whileInView={{y:0,opacity:1}} transition={{duration:0.8 ,ease:"easeOut",delay:0.2}} className="aboutMeText" viewport={{once:true,amount:0.1}}>I’m Devansh Tiwari, a Frontend Developer passionate about building modern, responsive web applications. I work primarily with React and focus on creating clean, interactive interfaces with smooth animations and performance optimization.

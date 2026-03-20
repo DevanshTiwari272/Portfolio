@@ -1,13 +1,22 @@
+.projectSection{margin-top: 100px;}
 .projectSectionHeading{
 text-align: center;font-size: 45px;
 }
-.projectIconDiv{display: flex;}
-.projectIcon{border-radius: 50%;height: 50px;}
+.projectIconDiv{display: flex;align-items: center;justify-content: center;margin-bottom: 50px;margin-top: 20px;}
+.projectIcon{border-radius: 50%;height: 50px;width: 50px;}
 .prototype{width: 50px;height: 50px;background-size: cover;background-repeat: no-repeat;border-radius: 50%}
-.projectContainerDiv{display: grid; grid-template-columns: 100vw;align-items: center;justify-content: center;}
+.projectContainerDiv{display: grid; grid-template-columns: 100%;align-items: center;justify-content: center;row-gap: 25px;}
 
 .projectContainer{height: 350px;position: relative ;overflow: hidden;}
 .projectImgHidden{width: 50px;height: 50px;border-radius: 50%;}
-.projectImgShow{width: 100%;height: 100%;}
-.projectImgContainer{width: 100%;height: 100%;display: flex;justify-content: center;align-items: center;}
-.projectDetailDiv{height: 100%;width: 60%;background-color: rgba(255, 255, 255, 0.1) ;-webkit-backdrop-filter:blur(12px);backdrop-filter: blur(12px);position:absolute}
+.projectImgShow{width: 100%;height: 100%;border-radius: 50%;}
+.projectImgContainer{width: 100%;height: 100%;display: flex;flex-direction: column;align-items: center;justify-content: center;}
+.projectDetailDiv{height: 100%;width: 60%;background-color: rgba(0, 0, 0, 0.2) ;-webkit-backdrop-filter:blur(12px);backdrop-filter: blur(20px);position:absolute;z-index: 4;display: flex;flex-direction: column;align-items: center;margin-top: 0px;border-top-left-radius: 20px;box-sizing: border-box;border-bottom-left-radius: 20px;padding: 20px;justify-content: space-between;}
+.projectHeading{color: rgb(0, 0, 0)}
+.projectDetail{text-align: center;}
+.linkDiv{display: flex;flex-direction: column;align-items: center;}
+.linkDiv button{border-radius: 10px;border: none;background-color: black;color: white;box-sizing: border-box;height: 40px;width: 65px;}
+.linkDiv a{color: rgb(226, 223, 223);}
+@media  screen and (min-width:700px) {
+    .projectContainerDiv{display: grid; grid-template-columns: 1fr 1fr;align-items: center;justify-content: center;row-gap: 25px;column-gap: 20px;}
+}

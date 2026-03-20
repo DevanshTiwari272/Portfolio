@@ -6,9 +6,11 @@ import {
   useTransform,
   animate,
   useSpring,
-} from "motion/react";
+} 
 
+from "motion/react";
 
+import Button from "./Button";
 import "../App.css";
 
 function Hero() {
@@ -42,7 +44,7 @@ function Hero() {
      < motion.section 
      className="heroSection"
      initial={{opacity:0,y:20}} animate={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeOut"}}>
-        <button className="menuButton">Menu</button>
+        <Button stiffness={320} damping={22} className="menuButton" button="Menu"></Button>
       <motion.div className="myNameDiv">
         {" "}
         <h1 className="hi">Hi I'm</h1>{" "}
@@ -87,7 +89,7 @@ function Hero() {
         
         <img loading="lazy" style={{scale:1}}
           className="portfolioImg"
-          src="../../public/myPhoto1.png"
+          src="../../public/upscalemedia-transformed.png"
           alt="my img"
         />
        
